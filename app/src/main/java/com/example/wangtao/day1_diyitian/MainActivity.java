@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //加载初始界面
+        //加载初始界面  你好B
         Initview();
     }
      //加载初始界面电风扇第三方大师但是
