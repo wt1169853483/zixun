@@ -10,10 +10,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //加载初始界面
         Initview();
     }
 
     private void Initview() {
+
         IntentFilter intentFilter =new IntentFilter();
         intentFilter.addAction("android.net.conn.CONNECTIVITY_CHANGE");
     }
