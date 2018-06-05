@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         //加载初始界面
         Initview();
     }
-
+     //加载初始界面
     private void Initview() {
 
         IntentFilter intentFilter =new IntentFilter();
