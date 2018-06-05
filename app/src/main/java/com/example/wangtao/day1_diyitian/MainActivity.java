@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Initview();
     }
-     //加载初始界面
+     //加载初始界面电风扇第三方大师但是
     private void Initview() {
         IntentFilter intentFilter =new IntentFilter();
         intentFilter.addAction("android.net.conn.CONNECTIVITY_CHANGE");
